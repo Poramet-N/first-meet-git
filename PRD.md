@@ -1,184 +1,86 @@
-# PRD: Responsive HTML Tags Demo Page
+# PRD: HTML Page of my first project (Om-ma Marinate Online Food Delivery)
 
 ## 1. Overview
 
-Create a simple, responsive, **HTML-only** webpage that demonstrates the use of commonly used HTML tags. The page should help beginner web development learners understand how semantic and structural HTML elements are used in a real webpage.
+Create an HTML webpage that is the homepage of my online food shop. The page should help customers who open it know who I am and clearly see examples of my menu.
 
-No CSS or JavaScript files are required. Basic responsiveness should come from correct HTML structure, semantic layout, and browser-default behavior.
+You can use CSS or JavaScript if it will improve the result. Please let me know if you need any files or anything else to improve the quality.
 
 ---
 
 ## 2. Goal
 
-The goal is to build a single `index.html` page that demonstrates common HTML tags in a clear, organized, and beginner-friendly way.
+The goal is to build a single `index.html` page for the homepage of my online food shop, designed to attract customers.
 
-Learners should be able to open the page in a browser, inspect the HTML source, and understand how different tags are used.
+Customers should be able to open the page in a browser to see the shop's history and some product pictures.
 
 ---
 
 ## 3. Target Users
 
-- Beginner web development learners
-- Students learning HTML fundamentals
-- Instructors demonstrating common HTML elements
+Our target customers are those who want to buy marinated seafood, such as salmon and shrimp.
 
 ---
 
 ## 4. Scope
 
-### In Scope
+The webpage should be designed to effectively attract customers. Please use any tools necessary to improve the page and increase shop sales.
 
-The webpage should demonstrate commonly used HTML tags, including:
+The shop's main products are marinated salmon and shrimp.
 
-- Document structure tags
-- Text content tags
-- Semantic layout tags
-- List tags
-- Link and image tags
-- Table tags
-- Form tags
-- Media tags
+The webpage theme features pastel blue and orange tones, which must match the shop's logo.
 
-### Out of Scope
+### Logo
 
-The webpage should not include:
-
-- External CSS
-- JavaScript
-- Frameworks or libraries
-- Backend functionality
-- Complex styling
-- Form submission logic
+![Om-ma Marinate Logo](https://i.postimg.cc/L6dv4b2h/Gemini-Generated-Image-zi9cphzi9cphzi9c.png)
 
 ---
 
-## 5. Functional Requirements
+## 5. Images and media
 
-### 5.1 Page Structure
+### Logo
 
-The page must include the standard HTML document structure:
+![Om-ma Marinate Logo](https://i.postimg.cc/L6dv4b2h/Gemini-Generated-Image-zi9cphzi9cphzi9c.png)
 
-- `<!DOCTYPE html>`
-- `<html>`
-- `<head>`
-- `<meta charset="UTF-8">`
-- `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
-- `<title>`
-- `<body>`
+### Menu
 
-### 5.2 Semantic Layout
+![Salmon Marinated](https://i.postimg.cc/cC73LTBv/Salmon.jpg)
 
-The page must use semantic HTML layout tags:
+![Shrimp Marinated](https://i.postimg.cc/MHYcSHzZ/Shrimp.jpg)
 
-- `<header>`
-- `<nav>`
-- `<main>`
-- `<section>`
-- `<article>`
-- `<aside>`
-- `<footer>`
+![Japanese rice](https://cs.lnwfile.com/_/cs/_raw/xr/0v/k7.jpg)
 
-### 5.3 Text Content
+![Seaweed Seasoned](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfDn20aelwPdqL3wHMbi2ln9znguKPxgFo62wo-Y50vw&s=10)
 
-The page must demonstrate text-related tags:
+![Egg Marinated](https://i.postimg.cc/L4v62rzv/Egg.jpg)
 
-- Headings: `<h1>` to `<h6>`
-- Paragraphs: `<p>`
-- Line break: `<br>`
-- Horizontal rule: `<hr>`
-- Strong importance: `<strong>`
-- Emphasis: `<em>`
-- Small text: `<small>`
-- Inline code: `<code>`
-- Preformatted text: `<pre>`
-- Blockquote: `<blockquote>`
+### DIY Menu
 
-### 5.4 Lists
+![DIY! Salmon don](https://i.postimg.cc/Pxr94FPd/Salmon-don.jpg)
 
-The page must demonstrate:
-
-- Ordered list: `<ol>`
-- Unordered list: `<ul>`
-- List item: `<li>`
-- Description list: `<dl>`, `<dt>`, `<dd>`
-
-### 5.5 Links and Images
-
-The page must demonstrate:
-
-- Link: `<a>`
-- Image: `<img>`
-- Figure: `<figure>`
-- Figure caption: `<figcaption>`
-
-Images should include meaningful `alt` text.
-
-### 5.6 Tables
-
-The page must include a simple table using:
-
-- `<table>`
-- `<caption>`
-- `<thead>`
-- `<tbody>`
-- `<tr>`
-- `<th>`
-- `<td>`
-
-### 5.7 Forms
-
-The page must include a sample form demonstrating:
-
-- `<form>`
-- `<label>`
-- `<input>`
-- `<textarea>`
-- `<select>`
-- `<option>`
-- `<button>`
-- `<fieldset>`
-- `<legend>`
-
-The form does not need to submit data.
-
-### 5.8 Media
-
-The page should demonstrate media tags where appropriate:
-
-- `<audio>`
-- `<video>`
-
-Placeholder file paths may be used, but the HTML should remain valid.
+![DIY! Shrimp don](https://i.postimg.cc/GmwfNpHF/Shrimp-don.jpg)
 
 ---
 
-## 6. Non-Functional Requirements
+## 6. Detail in page
 
-### 6.1 Responsiveness
+### History of the shop
 
-The page should be usable on:
+:heart: จากความชอบของคนในบ้าน สู่ “น้ำดองสูตรคุณแม่” ที่อยากให้ทุกคนได้ลองชิม
 
-- Mobile screens
-- Tablet screens
-- Desktop screens
+จุดเริ่มต้นของ Om-ma Marinate ไม่มีอะไรซับซ้อนไปกว่า “ความชอบกิน” ของคนในบ้านเราเองค่ะ วันไหนที่บนโต๊ะอาหารมีเมนูแซลมอนดองหรือกุ้งดอง วันนั้นจะเป็นวันที่ทุกคนแฮปปี้และกินข้าวกันอร่อยที่สุด
 
-The page should include the viewport meta tag and avoid fixed-width layouts.
+พอกินบ่อยเข้า เราเลยเริ่มลงมือปรับสูตรน้ำดองเฉพาะของบ้านเราเอง ลองผิดลองถูกอยู่ตั้งนานจนได้รสชาติที่เข้มข้น กลมกล่อม ละมุนลิ้น และเข้าเนื้อที่สุด จนถึงจุดที่คนในบ้านทักว่า ‘รสชาติแบบนี้แหละ ทำไมเราไม่ทำแจก ทำขาย ให้คนอื่นได้ชิมความอร่อยนี้บ้างนะ’
 
-### 6.2 Accessibility
+คำว่า Om-ma (ออมม่า) ที่แปลว่าคุณแม่ มันคือหัวใจหลักของร้านเราเลยค่ะ เพราะขึ้นชื่อว่า “คนเป็นแม่” ย่อมไม่ยอมให้ลูกกินของไม่ดีเด็ดขาด! เราทำกินเองในครอบครัวยังไง เราก็ส่งต่อให้ลูกค้าแบบนั้นเลย
 
-The page should follow basic accessibility practices:
+- วัตถุดิบต้องพรีเมียม: เราคัดสรรเนื้อแซลมอนส้มสดเด้ง และกุ้งเนื้อแน่นตัวโตแบบคัดไซส์
 
-- Use semantic HTML
-- Use proper heading order
-- Use `alt` text for images
-- Associate form inputs with labels
-- Use descriptive link text
+- ความสะอาดต้องเป็นที่หนึ่ง: ทุกขั้นตอนต้องเนี้ยบ ล้างสะอาด ล้างคาวอย่างพิถีพิถัน เพราะเรื่องสุขอนามัยของคนทานคือเรื่องที่ออมม่าซีเรียสที่สุด
 
-### 6.3 Simplicity
+- ศาสตร์แห่งเวลา: เราไม่เร่งรีบ แต่เราดองด้วยเทคนิคเฉพาะใน “ระยะเวลาที่เป๊ะและเหมาะสมที่สุด” เพื่อให้น้ำดองสูตรลับซึมลึกเข้าเนื้ออย่างทั่วถึง โดยที่เนื้อวัตถุดิบยังคงหวาน สด กรอบเด้งสู้ฟัน ไม่นิ่มเละ และไม่มีกลิ่นคาวเลยแม้แต่นิดเดียว
 
-The page should be simple enough for beginners to read and understand.
-
-The HTML should be clearly organized and optionally include comments to separate major sections.
+เราตั้งใจส่งต่อความอร่อยระดับโฮมเมดที่เต็มไปด้วยความใส่ใจและความหวังดีของมนุษย์แม่ ให้ถึงมือทุกคนในทุกๆ กล่องแล้วนะคะ ลองเปิดใจชิมสูตรเด็ดของบ้านเราดูสักคำ แล้วคุณจะรู้ว่าความใส่ใจมันอร่อยแค่ไหนค่ะ
 
 ---
 
@@ -186,26 +88,15 @@ The HTML should be clearly organized and optionally include comments to separate
 
 The webpage may be organized as follows:
 
-1. Header and navigation
-2. Introduction
-3. Text elements
-4. Lists
-5. Links and images
-6. Tables
-7. Forms
-8. Media
-9. Aside notes
-10. Footer
+1. History
+2. Menu
+3. DIY Menu! (only a suggested guide for eating)
 
 ---
 
 ## 8. Deliverables
 
-The final deliverable should include:
-
-- `index.html` containing the full HTML-only demo page
-- No external CSS file
-- No JavaScript file
+The final deliverable should be `index.html` containing the full of detail of homepage of the shop.
 
 ---
 
@@ -213,16 +104,8 @@ The final deliverable should include:
 
 The project is complete when:
 
-- The webpage opens successfully in a browser
-- The page uses valid HTML structure
-- The page includes examples of all required tags
-- The page is readable on mobile and desktop screens
-- Images include `alt` text
-- Form inputs have associated labels
-- The page does not depend on CSS, JavaScript, or external libraries
+- The webpage opens successfully in a browser.
+- The webpage have name of the shop "Om-ma Marinate" Marinated Seafood shop.
+- The webpage have menu card that include picture, price, order quantity and add to basket link. 
+- The DIY menu is not included on the menu card.
 
----
-
-## 10. Success Measure
-
-A beginner learner should be able to inspect the HTML file and identify how common HTML tags are used in a realistic webpage structure.
